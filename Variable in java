@@ -1,0 +1,27 @@
+package variable;
+
+public class Variable {
+
+	public static void main(String[] args) {
+	    int number = 88;
+	    short myshort = 934;
+	    long mylong = 03535;
+	    double mydouble = 3.4345;
+	    
+	    float myfloat = 342.3f;
+	    char mychar = 'y';
+	    boolean myboolean = false;
+	    byte mybyte = 127;
+	    System.out.println(number);
+	    System.out.println(myshort);
+	    System.out.println(mylong);
+	    System.out.println(mydouble);
+	    System.out.println(myfloat);
+	    System.out.println(mychar);
+	    System.out.println(myboolean);
+	    System.out.println(mybyte);
+	   
+	    		
+	}
+
+}
