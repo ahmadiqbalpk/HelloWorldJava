@@ -1,0 +1,28 @@
+
+public class MultiDimensionArray {
+	public static void main(String[] args) {
+
+		//giving values to two dimension arrays
+		int[][] grid = {
+				{3, 5, 9},
+				{2, 1},
+				{1,2,3,4}
+		};
+
+		System.out.println(grid[1][1]);
+		System.out.println(grid[0][2]);
+
+
+		for(int row=0; row<grid.length;row++){
+			for(int col=0; col <grid[row].length;col++){
+				System.out.print(grid[row][col] + " ");
+			}
+
+			System.out.println();
+
+		}
+		
+	}
+}
+
+
