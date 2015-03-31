@@ -1,0 +1,21 @@
+package strings;
+
+public class mystrings {
+	public static void main(String[] args) {
+          
+		int num = 10;
+		String text = "Hello";
+		String space = "  ";
+		String name = "bob";
+		String greeting = text + space + name;
+		System.out.println(greeting);
+		
+		System.out.println("My integer is " +num);
+		
+		double myDouble = 7.89;
+		System.out.println("my double is = " +myDouble+ ".");
+		
+		
+		
+	}
+}
